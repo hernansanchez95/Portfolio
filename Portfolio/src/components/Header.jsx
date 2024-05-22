@@ -11,6 +11,7 @@ const Header = () => {
         <Image src={Hernan} className="avatar" roundedCircle />
         <h1 className=" mt-3">SÁNCHEZ ORTIZ HERNÁN</h1>
         <p className="lead">Desarrollador Fullstack</p>
+        <hr />
       </Container>
     </div>
   );

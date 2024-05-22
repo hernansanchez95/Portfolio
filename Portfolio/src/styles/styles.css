@@ -1,9 +1,3 @@
-.avatar{
-    width: 200px;
-    height: 200px;
-    border-radius: 30%;
-}
-
 .fondoHeader{
     background-color: #abe7e9;
     background-image: linear-gradient(0deg, #abe7e9 0%, #37BEDF 100%);
@@ -13,8 +7,25 @@
     background-color: #abe7e9;
 }
 
+.fondoFooter{
+    background-color: #37BEDF;
+    background-image: linear-gradient(0deg, #37BEDF 0%, #abe7e9 100%);
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+
 .iconos{
     filter: grayscale(100%);
-    height: 25px;
-    width: 25px;
+    height: 19px;
+    width: 17px;
 }
+
+.iconosRedes{
+    height: 45px;
+    width: 45px;
+}
+
