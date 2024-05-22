@@ -25,7 +25,23 @@
 }
 
 .iconosRedes{
+    color: #207083;
     height: 45px;
     width: 45px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.iconosRedes:hover, .iconosRedes:focus, .iconosRedes:active{
+    color: #B9FAFC;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
+.ventanas{
+    background-color: #B9FAFC;
+}

@@ -8,10 +8,10 @@ const Footer = () => {
     <div className="fondoFooter py-3">
       <Container className="text-center">
         <a href="https://www.linkedin.com/in/hernan-sanchez-ortiz" target='blank' className='mx-2'>
-        <FontAwesomeIcon className="iconosRedes fab fa-2x text-light" icon={faLinkedin} />
+        <FontAwesomeIcon className="iconosRedes fab fa-2x" icon={faLinkedin} />
         </a>
         <a href="https://github.com/hernansanchez95" target='blank' className='mx-2'>
-        <FontAwesomeIcon className="iconosRedes fab fa-2x text-light" icon={faGithub} />
+        <FontAwesomeIcon className="iconosRedes fab fa-2x" icon={faGithub} />
         </a>
         <hr />
         <p className='lead mt-2'>Sánchez Ortiz Hernán</p>
